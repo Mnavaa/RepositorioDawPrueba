@@ -12,11 +12,11 @@ nota2=int(input("Donam la nota2:"))
 nota3=int(input("Dona la nota3:"))
 
 nota_mitjana=nota1*0,3+nota2*0,4+nota3*0,3
-print(nota_mitjana)
+#print(nota_mitjana)
 #Condicion 
 if nota_mitjana>7:
     print("La teva mitjana es superior a 7")
-#Clasificar els estudiants en dues llistes
 elif nota_mitjana>8:
     print("Tens una nota superior a 8")
+#Clasificar els estudiants en dues llistes
 #Fer un print amb el titol o nom representatitu de la llistaa

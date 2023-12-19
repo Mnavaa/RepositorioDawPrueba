@@ -7,8 +7,16 @@
 nom= input("Donam el nom:")
 congnom=input("Donal el teu cognom:")
 edat=int(input("Donm la teva edat:"))
-nota1=int(input("Donam la nota3:"))
+nota1=int(input("Donam la nota1:"))
 nota2=int(input("Donam la nota2:"))
 nota3=int(input("Dona la nota3:"))
 
-nota_final= (nota1+0,30)*(nota2+0,40)*(nota3+0,30) 
+nota_mitjana=nota1*0,3+nota2*0,4+nota3*0,3
+print(nota_mitjana)
+#Condicion 
+if nota_mitjana>7:
+    print("La teva mitjana es superior a 7")
+#Clasificar els estudiants en dues llistes
+elif nota_mitjana>8:
+    print("Tens una nota superior a 8")
+#Fer un print amb el titol o nom representatitu de la llistaa

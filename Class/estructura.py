@@ -1,5 +1,6 @@
 #PRE:Escriu un programa en Python3 que llegeixi de l’usuari una llista de tuples,
 #on cada tupla representa un estudiant amb la següent informació: (Nom, Cognom, Edat, Nota1, Nota2, Nota3).
+
 #Le pido al usuario cuantos alumnos quiere registar
 Alumnes=("Cuants que vols registrar")
 #Pido toda la información sobre el alumno para después poder evaluar su nota
@@ -13,7 +14,3 @@ nota2=int(input("Donam la nota2:"))
 nota3=int(input("Dona la nota3:"))
 #if "nota1"<=7:
    # print("bona mitja")
-#if mitjana=>7:
-    #print(noc)
-#if mitjana=>8:
-    #print(noc)

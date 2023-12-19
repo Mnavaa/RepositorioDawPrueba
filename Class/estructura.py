@@ -4,6 +4,7 @@
 #Le pido al usuario cuantos alumnos quiere registar
 #Pido toda la información sobre el alumno para después poder evaluar su nota
 #Quiero comparar la nota del estudiante y dependiendo de lo que tiene puede tener diferente medias de nota 
+
 nom= input("Donam el nom:")
 congnom=input("Donal el teu cognom:")
 edat=int(input("Donm la teva edat:"))
@@ -11,12 +12,17 @@ nota1=int(input("Donam la nota1:"))
 nota2=int(input("Donam la nota2:"))
 nota3=int(input("Dona la nota3:"))
 
-nota_mitjana=nota1*0,3+nota2*0,4+nota3*0,3
-#print(nota_mitjana)
+nota_mitjana=nota1*0.3+nota2*0.4+nota3*0.5
+print(nota_mitjana)
 #Condicion 
 if nota_mitjana>7:
     print("La teva mitjana es superior a 7")
 elif nota_mitjana>8:
     print("Tens una nota superior a 8")
+elif nota_mitjana<4:
+    print("Estudia! que te vas para recureaciones")
 #Clasificar els estudiants en dues llistes
+Estudiant1condicio= ()
+
+Estudiant2condicio= ()
 #Fer un print amb el titol o nom representatitu de la llistaa
